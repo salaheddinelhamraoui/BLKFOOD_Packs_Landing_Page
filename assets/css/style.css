@@ -1,10 +1,5 @@
 /* ==============================================================
 
-Theme Name	: Appcraft HTML
-Theme URI	: Minimal Themes
-Author		: Minimal Themes
-Author URI	: https://themeforest.net/user/minimalthemes
-Description	: Responsive Portfolio Template
 Version		: 1.0.0
 
 =================================================================
@@ -1262,7 +1257,7 @@ a.animated-button.style2:hover:after {
 	position: relative;
 }
 
-#section-features1 {
+.section-features1 {
 	padding: 110px 0;
 	margin-bottom: -45px;
 	background-image: url(../images/bg1.jpg);
@@ -1275,7 +1270,7 @@ a.animated-button.style2:hover:after {
 	transition: all 0.2s ease-in-out;
 }
 
-#section-features1 .left {
+.section-features1 .left {
 	position: absolute;
 	width: 287px;
 	top: 50%;
@@ -1284,7 +1279,7 @@ a.animated-button.style2:hover:after {
 	transform: translateY(-50%);
 }
 
-#section-features1 .left h6 {
+.section-features1 .left h6 {
 	font-family: 'Poppins-Medium';
 	font-size: 14px;
 	letter-spacing: 2px;
@@ -1292,7 +1287,7 @@ a.animated-button.style2:hover:after {
 	margin-bottom: 5px;
 }
 
-#section-features1 .left h2, #section-clients1 h2 {
+.section-features1 .left h2, #section-clients1 h2 {
 	font-family: 'Poppins-Medium';
 	font-size: 36px;
 	color: #343434;
@@ -1300,44 +1295,44 @@ a.animated-button.style2:hover:after {
 	margin-bottom: 20px;
 }
 
-#section-features1 .left ul {
+.section-features1 .left ul {
 	padding: 0;
 	margin: 0;
 }
 
-#section-features1 .left ul li {
+.section-features1 .left ul li {
 	list-style: none;
 	display: inline-block;
 	cursor: pointer;
 }
 
-#section-features1 .left ul li:nth-child(2) {
+.section-features1 .left ul li:nth-child(2) {
 	margin-left: 20px;
 }
 
-#section-features1 .left ul li i:before {
+.section-features1 .left ul li i:before {
 	font-size: 30px;
 }
 
-#section-features1 .left ul li i:hover:before {
+.section-features1 .left ul li i:hover:before {
 	color: #343434;
 }
 
-#section-features1 .left ul li i:focus {
+.section-features1 .left ul li i:focus {
 	border: none;
 	outline: none;
 }
 
-#section-features1 .right {
+.section-features1 .right {
 	margin-left: 32%;
 	width: 100%;
 }
 
-#section-features1 .swiper-container {
+.section-features1 .swiper-container {
 	height: 340px;
 }
 
-#section-features1 .item {
+.section-features1 .item {
 	max-width: 340px;
 	/* padding: 25px 29px; */
 	background: #ffffff;
@@ -1345,24 +1340,24 @@ a.animated-button.style2:hover:after {
 	box-shadow: 10px 22px 55px -40px #bfbfbf;
 }
 
-#section-features1 .item:hover {
+.section-features1 .item:hover {
 	cursor: auto;
 }
 
-#section-features1 .item img {
+.section-features1 .item img {
 	width: 340px;
 	height: auto;
 	border-radius: 20px;
 }
 
-#section-features1 .item h3 {
+.section-features1 .item h3 {
 	font-family: 'Poppins-Regular';
 	font-size: 22px;
 	color: #343067;
 	margin-bottom: 20px;
 }
 
-#section-features1 .item p {
+.section-features1 .item p {
 	font-family: 'Poppins-Regular';
 	font-size: 15px;
 	color: #606877;
@@ -1475,6 +1470,67 @@ a.animated-button.style2:hover:after {
 }
 
 #section-appscreen1 .owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 45px;
+	line-height: 0;
+}
+
+/*=============================
+ *  4.5 SECTION APP SCREEN 2  *
+ *============================*/
+
+#section-appscreen2 {
+	padding: 110px 0;
+	overflow: hidden;
+}
+
+#section-appscreen2 .owl-carousel {
+	overflow: hidden;
+}
+
+#section-appscreen2 .owl-carousel .owl-stage-outer {
+	overflow: unset;
+}
+
+#section-appscreen2 .item {
+	text-align: center;
+	width: auto !important;
+}
+
+#section-appscreen2 .owl-item.center>div {
+	-webkit-box-shadow: 0 0 50px -22px #64a0e8;
+	box-shadow: 0 0 50px -22px #64a0e8;
+	transition: all 0.15s ease-in-out;
+}
+
+#section-appscreen2 .owl-carousel .owl-item img {
+	width: auto;
+	margin: 0 auto;
+}
+
+#section-appscreen2 .owl-theme .owl-dots .owl-dot.active span {
+	background: #628bea;
+	width: 10px;
+	height: 10px;
+	top: 1px;
+	position: relative;
+}
+
+#section-appscreen2 .owl-theme .owl-dots .owl-dot:hover span {
+	background: #628bea;
+}
+
+#section-appscreen2 .owl-theme .owl-dots .owl-dot span {
+	width: 8px;
+	height: 8px;
+	margin: 3px 3px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px;
+}
+
+#section-appscreen2 .owl-theme .owl-nav.disabled+.owl-dots {
 	margin-top: 45px;
 	line-height: 0;
 }
@@ -2768,7 +2824,7 @@ a.animated-button.style2:hover:after {
 	#section-slider1 .swiper-slide .slider-content .right img {
 		max-width: 69%;
 	}
-	#section-features1 {
+	.section-features1 {
 		padding: 110px 0;
 		background-position: right;
 		background-size: contain;
@@ -2955,15 +3011,15 @@ a.animated-button.style2:hover:after {
 	#section-clients1 .item:nth-of-type(-n+3) {
 		margin-bottom: 30px;
 	}
-	#section-features1 {
+	.section-features1 {
 		padding: 80px 0;
 		background-size: cover;
 		background-position: center;
 	}
-	#section-features1 .item p {
+	.section-features1 .item p {
 		margin-bottom: 0;
 	}
-	#section-features1 .left {
+	.section-features1 .left {
 		width: 220px;
 	}
 	#section-features2 .left .circleicon1, .section-features2 .left .circleicon1 {
@@ -3081,7 +3137,7 @@ a.animated-button.style2:hover:after {
 		line-height: 28px;
 		margin-bottom: 30px;
 	}
-	#section-features1 .left {
+	.section-features1 .left {
 		width: 100%;
 		position: relative;
 		top: auto;
@@ -3089,7 +3145,7 @@ a.animated-button.style2:hover:after {
 		-webkit-transform: none;
 		transform: none;
 	}
-	#section-features1 .right {
+	.section-features1 .right {
 		margin-left: 0;
 		width: 120%;
 	}
@@ -3451,7 +3507,7 @@ body.scheme2 .bgscheme {
 	transition: all 0.2s ease-in-out;
 }
 
-body.scheme2 #section-features1 {
+body.scheme2 .section-features1 {
 	background-image: url(../images/bg1_2.jpg);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -3503,7 +3559,13 @@ body.scheme3 .bgscheme {
 	transition: all 0.2s ease-in-out;
 }
 
-body.scheme3 #section-features1 {
+body.scheme3 .bgscheme_grey {
+	background-image: linear-gradient(120deg, #647283 0%, #7F7F7F 100%);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+body.scheme3 .section-features1 {
 	background-image: url(../images/bg1_3.jpg);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -3555,7 +3617,7 @@ body.scheme4 .bgscheme {
 	transition: all 0.2s ease-in-out;
 }
 
-body.scheme4 #section-features1 {
+body.scheme4 .section-features1 {
 	background-image: url(../images/bg1_4.jpg);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -3589,4 +3651,12 @@ body.scheme4 #section-footer {
 	background-image: url(../images/bg-footer4.png);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+}
+
+.bg_dark {
+	color: #000000;
+}
+
+.background_grey {
+	background: #647283;
 }
